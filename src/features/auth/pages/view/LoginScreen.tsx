@@ -12,9 +12,9 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
-import { colors } from '../../../theme/colors';
-import { globalStyles } from '../../../theme/global.styles';
-import { styles } from './LoginScreen.styles';
+import { colors } from '../../../../theme/colors';
+import { globalStyles } from '../../../../theme/global.styles';
+import { styles } from '../styles/Login.styles';
 
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
